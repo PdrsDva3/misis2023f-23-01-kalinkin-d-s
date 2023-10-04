@@ -1,0 +1,15 @@
+#include <iostream>
+#include <vector>
+#include <string>
+//на стадии задумки
+
+int main(){
+    int n = 0;
+    std::cin >> n;
+    std::string inp;
+    std::cin >> inp;
+    int ct = 0;
+    for (int i = 0; i < n; i ++){
+        for 
+    }
+}
