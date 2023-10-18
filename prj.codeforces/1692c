@@ -1,0 +1,31 @@
+#include <iostream>
+#include <vector>
+#include <string>
+//идея ясна, реализация хромает
+//нужно вычислить, где касается слон правой стенки в двух местах или в двух левых местах
+//вычислить y=kx+b и найти пересечение двух прямых
+int main(){
+    int t = 0;
+    std::cin >> t;
+    t = t * 8;
+    std::vector<std::string> desks;
+    while (t > 0){
+        std::string d1;
+        std::cin >> d1;
+        desks.push_back(d1);
+        t--;
+    }
+    int num = 0;
+    std::cout << "==========================" << std::endl;
+    for (std::string o : desks){
+        
+        if (num < 8){
+            std::cout << o << std::endl;
+            num+=1;
+        }else{
+            std::cout << "---------------" << std::endl;
+            num = 0;
+        }
+    }
+        
+}
