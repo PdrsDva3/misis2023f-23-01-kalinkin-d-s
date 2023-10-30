@@ -1,15 +1,29 @@
 #include <iostream>
-#include <vector>
 #include <string>
-//на стадии задумки
+//#include <vector>
 
-int main(){
+//0978b - указатели??
+int main() {
     int n = 0;
     std::cin >> n;
-    std::string inp;
-    std::cin >> inp;
-    int ct = 0;
-    for (int i = 0; i < n; i ++){
-        for 
+    std::string str;
+    std::cin >> str;
+    int cnt = 0;
+    int cnt_now = 0;
+    int i = 0;
+    while (i < n){
+        if (str[i] == 'x'){
+            cnt_now++;
+        }else{
+            if (cnt_now >= 2) {
+                cnt += cnt_now-2;
+            }
+            cnt_now = 0;
+        }
+        i++;
     }
+    if (cnt_now >=2){
+        cnt += cnt_now - 2;
+    }
+    std::cout << cnt;
 }
