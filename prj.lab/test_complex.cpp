@@ -3,7 +3,7 @@
 bool testParse(const std::string& str){
     std::istringstream istrm(str);
     Complex z;
-    istrm >> z;
+    z.readFrom(istrm);
     if (istrm.good()){
         std::cout << "Read succes: " << str << "->" << z << std::endl;
     }else{
