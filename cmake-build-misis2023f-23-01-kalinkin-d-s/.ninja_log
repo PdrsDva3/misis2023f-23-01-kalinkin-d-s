@@ -1,0 +1,11 @@
+# ninja log v5
+1	719	7217474137373302	prj.codeforces/CMakeFiles/0004a.dir/0004a.cpp.obj	bf0e2e110c581e3b
+722	1007	7217474140194674	prj.codeforces/0004a.exe	51b6206c8f971398
+4	997	7222849926647440	prj.lab/CMakeFiles/test_complex.dir/test_complex.cpp.obj	daf4b216eb039991
+5	826	7223519080467887	build.ninja	752a279194d2988c
+4	893	7222778680283977	prj.lab/CMakeFiles/complex.dir/complex.cpp.obj	becd5d30fe4f59a1
+865	1110	7223507845277575	prj.lab/test_complex.exe	539a8e7e283b9f37
+753	865	7223507842874727	prj.lab/libcomplex.a	83507a4c9cd5d897
+1454	2009	7222770312114156	prj.lab/complex.exe	31604eb9a50a972c
+1	752	7223507841676147	prj.lab/CMakeFiles/complex.dir/complex/complex.cpp.obj	f1570e780f7172a4
+6	789	7223507842089593	prj.lab/CMakeFiles/test_complex.dir/test_complex/test_complex.cpp.obj	11ac83b0fe508b9c

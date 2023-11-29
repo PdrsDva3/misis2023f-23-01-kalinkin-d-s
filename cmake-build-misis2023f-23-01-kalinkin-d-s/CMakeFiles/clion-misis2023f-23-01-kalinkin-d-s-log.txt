@@ -1,0 +1,4 @@
+"C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2023.1.4/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\Lol\CLionProjects\misis2023f-23-01-kalinkin-d-s -B C:\Users\Lol\CLionProjects\misis2023f-23-01-kalinkin-d-s\cmake-build-misis2023f-23-01-kalinkin-d-s
+-- Configuring done (0.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/Users/Lol/CLionProjects/misis2023f-23-01-kalinkin-d-s/cmake-build-misis2023f-23-01-kalinkin-d-s
