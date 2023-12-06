@@ -49,7 +49,6 @@ std::istream& Complex::readFrom(std::istream& istrm){
 //}
 
 Complex& Complex::operator+=(const Complex& rhs){
-
     re += rhs.re;
     im += rhs.im;
     return *this;

@@ -37,3 +37,13 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/objdump.exe")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/Lol/CLionProjects/misis2023f-23-01-kalinkin-d-s/cmake-build-misis2023f-23-01-kalinkin-d-s/prj.lab/complex/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/Lol/CLionProjects/misis2023f-23-01-kalinkin-d-s/cmake-build-misis2023f-23-01-kalinkin-d-s/prj.lab/rational/cmake_install.cmake")
+endif()
+
